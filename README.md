@@ -1,6 +1,6 @@
 # github-packages-publish-private
 
-Publish from a private github repository (github-packages-publish-private) to a public one (github-packages-publish-public)
+Publish from a private github repository (https://github.com/ben-poole/github-packages-publish-private) to a public one (https://github.com/ben-poole/github-packages-publish-public)
 
 ## Publish locally
 
