@@ -1,6 +1,6 @@
 {
     "name": "@ben-poole/github-packages-publish-public",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repository": {
         "type": "git",
         "url": "ssh://git@github.com/ben-poole/github-packages-publish-public.git"
