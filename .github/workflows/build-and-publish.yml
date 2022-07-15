@@ -15,7 +15,10 @@ jobs:
           node-version: '14.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@ben-poole'
-      - run: npm ci
-      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_PAT }}
+      run: |
+          npm ci
+          npm run build
+          npm publish
+        
